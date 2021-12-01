@@ -1,0 +1,227 @@
+body {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}  
+
+.background{
+    background: url(wallpaper3.jpg)  center no-repeat fixed;
+    background-size: cover;
+}
+
+header {
+    padding: 40px 0px;
+    background:linear-gradient(90deg,#212121,#000000);
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+nav {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{ 
+    text-decoration: none;
+    font-weight: bold;
+    color: #bb9f54;
+    text-transform: uppercase;
+    transition: 500ms;
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+nav a:hover{
+    color:white;
+    transition: 450ms;
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 5em;
+    line-height: 20px;
+}
+
+.principal h2{
+    margin-bottom: 2em;
+}
+
+.principal p{
+    margin: 1em;
+}
+
+.principal em, strong{
+    font-style: italic;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin: 1em;
+    font-size: 40px;
+    font-weight: bold;
+}
+.utensilios {
+    width: 125px;
+    box-shadow: 5px 5px 5px #000000;
+    float:left;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+.utensilios2 {
+    height: 125px;
+    width: 125px;
+    box-shadow: 5px 5px 5px #000000;
+    float:right;
+    border-radius: 5px;
+}
+
+.mapa{
+    margin-top: 1em;
+    margin-bottom:3em;
+    text-align: center;
+    padding: 18px;
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa-layout {
+    border-radius: 10px;
+    margin: 30px 0;
+
+}
+
+.beneficios{
+    width: 100%;
+    text-align: center;
+    background:#212121;
+    padding: 3em 0;
+}
+
+.beneficios-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagem-beneficios{
+    width: 400px;
+    height: 250px;
+    margin: 55px 300px 0 0;
+    box-shadow: 10px 10px 10px #000000;
+    transition: 350ms;
+    border: #bb9f54 2px solid;
+}
+
+.imagem-beneficios:hover{
+    transition: 350ms;
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+.titulo-profissionais{
+    margin: 100px 0 0 685px;
+}
+
+.wallpaper-beneficios{
+    margin-top: 50px;
+    width: 400px;
+    height: 250px;
+    margin-left: 500px;
+    box-shadow: 10px 10px 10px #000000;
+    border: #bb9f54 2px solid;
+    transition: 350ms;
+}
+
+.wallpaper-beneficios:hover{
+    transition: 350ms;
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+
+h3{
+    position: absolute;
+    margin: 125px 0 150px 350px;    
+    color: #bb9f54; 
+}
+
+.box-profissionais{
+    text-align: center;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    margin: 150px 580px;
+}
+
+.box-fidelidade{
+    text-align: center;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    margin: 128px 0 0;
+}
+
+.box-entretenimento{
+    text-align: center;
+    width: 33%;
+    height: 20%;
+    position: absolute;
+    margin: 128px 0 0 500px;
+}
+
+.titulo-fidelidade , .titulo-flipe , .titulo-profissionais {
+    font-size: 20px;
+}
+
+.titulo-fidelidade{
+    margin: 80px 100px 0 110px;
+}
+
+.titulo-flipe{
+    margin: 80px 10px 5px 600px;
+}
+
+.flip{
+    width: 400px;
+    height: 250px;
+    margin: 50px 500px 30px 0;
+    box-shadow: 10px 10px 10px #000000;
+    border: #bb9f54 2px solid;
+    transition: 300ms;
+}
+
+.flip:hover{
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    background:linear-gradient(90deg,#212121,#000000);
+    color: #bb9f54; 
+    padding: 10px;
+}
+
+.imagem-rodape{
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+}

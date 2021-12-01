@@ -1,0 +1,135 @@
+body {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}  
+
+main{
+    background:url("wallpaper2.jpg") 
+}
+
+header {
+    padding: 40px 0px;
+    background:linear-gradient(90deg,#212121,#000000);
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+nav {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a{ 
+    text-decoration: none;
+    font-weight: bold;
+    color: #bb9f54;
+    text-transform: uppercase;
+    transition: 500ms;
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+nav a:hover{
+    color:white;
+    transition: 450ms;
+}
+/* Começa aqui novas config*/
+
+.wrap{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrap ul li{
+    margin: 50px 18px 100px 0;
+    padding: 30px 0;
+    display: inline-block;
+    width: calc(32% - 10px);
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid #bb9f54;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.wrap li:hover{
+    color: #bb9f54;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.wrap li:active{
+    border-color: green;
+    color: green;
+}
+
+.wrap h2{
+    padding-bottom: 25px;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.wrap p{
+    line-height: 25px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+ul li .valor{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.imagens{
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background:linear-gradient(90deg,#212121,#000000);
+    color: #bb9f54; 
+    padding: 10px;
+}
+
+.imagem-rodape{
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+}

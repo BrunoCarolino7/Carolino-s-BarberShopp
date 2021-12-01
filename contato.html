@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <link rel="stylesheet" href="reset.css">        
+        <link rel="stylesheet" href="style-contato.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Pagina inicial</title>
+        <link rel="shortcut icon" href="iconebarber.ico">
+    </head>
+
+    <body>        
+        <header>
+                <div class="caixa">
+                    <h1><img src="logotipo-personalizada-barbearia-arte-digital-tesoura.jpg" class="logo" alt="Logo da barbearia Alura"></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="produtos.html">Produtos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </header>
+
+        <form>
+            <label for="nome" class="label-padrao">Nome e Sobrenome</label>
+            <input type="text" id="nome" class="input-padrao"> 
+
+            <label for="email" class="label-padrao">Email</label>
+            <input type="email" id="email" placeholder="exemplo@dominio.com" required class="input-padrao">
+
+            <label for="telefone" class="label-padrao Telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" required class="input-padrao">
+            
+
+            <label>Mensagens</label>
+            <textarea cols="70" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Como prefere nossso contato ?</legend>
+
+                <label for="radio-email"><input type="radio" id="radio-email" name="contato">Email</label>
+                        
+                <label for="radio-telefone"><input type="radio" id="radio-telefone" name="contato">Telefone</label>  
+                
+                <label for="whatsapp"><input type="radio" id="whatsapp" name="contato" checked>Whatsapp</label>
+            </fieldset>
+            
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido ?</legend>
+
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+
+                <label for="checkbox"><input type="checkbox" id="checkbox" checked>Gostaria de receber nossas novidades por email ?</label>         
+
+                <input type="submit" value="Enviar Formulário" class="botao-enviar">
+            </fieldset>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Noite</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+         
+        </form>
+
+        
+
+        <footer>
+            <img src="logotipo-personalizada-barbearia-arte-digital-tesoura.jpg" class="imagem-rodape" alt=" logo barbearia alura">
+            <h5>&copy Copyright -Carolino's BarberShop - 2021</h5>
+        </footer>
+    </body>
+
+</body>
